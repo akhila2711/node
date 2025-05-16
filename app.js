@@ -27,7 +27,7 @@ const server = http.createServer((req, res) =>{
         console.log(parsedBody);
         const message = parsedBody.split('='); // Extract the message from the parsed body
 
-        fs.writeFile("HELLO.txt", message[] || '', (err) => {
+        fs.writeFile("HELLO.txt", message[1] || '', (err) => {
             if (err) {
                 console.error("Error writing file:", err);
             }
