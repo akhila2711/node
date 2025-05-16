@@ -31,4 +31,14 @@ const url = require('url');
 // console.log("OS Architecture", os.arch());  
 // console.log("OS Network Interfaces", os.networkInterfaces());
 
+const fs = require('fs');
+
+// Example buffer
+const imageBuffer = getImageBufferSomehow(); // Replace with your actual buffer
+
+fs.writeFile('image.jpg', imageBuffer, (err) => {
+  if (err) throw err;
+  console.log('Image saved!');
+});
+
 
