@@ -3,18 +3,25 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js",
+    "dev": "nodemon app.js"
+    
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akhila2711/node.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "akhi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/akhila2711/node/issues"
   },
   "homepage": "https://github.com/akhila2711/node#readme",
-  "description": ""
+  "description": "node js class",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
